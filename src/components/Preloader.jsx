@@ -125,7 +125,7 @@ const Preloader = ({ onComplete }) => {
 
   return (
     <div className="preloader-container" style={styles.preloaderContainer}>
-      <h1 className="xl:text-[8rem] absolute top-20 left-32 text-8xl uppercase text-start leading-[1] animate-dental">
+      <h1 className="xl:text-[8rem] absolute top-20 xl:left-32 text-8xl uppercase text-start leading-[1] animate-dental">
         <span className="opacity-0 inline-block translate-y-10">R</span>
         <span className="text-blue-600  inline-block opacity-0 translate-y-10">o</span>
         <span className="opacity-0   inline-block translate-y-10">y</span>
