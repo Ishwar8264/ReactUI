@@ -28,7 +28,7 @@ const Navbar = () => {
         </button>
 
         <ul
-          className={`nav-left md:flex absolute md:static top-16 left-0 w-full md:w-auto md:bg-transparent transition-all duration-300 ease-in ${
+          className={`nav-left md:flex bg-gray-400 z-50 absolute md:static top-16 left-0 w-full md:w-auto md:bg-transparent transition-all duration-300 ease-in ${
             menuOpen ? "block" : "hidden"
           }`}
         >
@@ -66,7 +66,7 @@ const Navbar = () => {
         </Link>
 
         <ul
-          className={`nav-right md:flex text-black absolute md:static top-[9rem] left-0 w-full md:w-auto md:bg-transparent transition-all duration-300 ease-in ${
+          className={`nav-right bg-gray-400 z-50 md:flex text-black absolute md:static top-[9rem] left-0 w-full md:w-auto md:bg-transparent transition-all duration-300 ease-in ${
             menuOpen ? "block" : "hidden"
           }`}
         >

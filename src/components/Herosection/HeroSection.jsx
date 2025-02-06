@@ -86,7 +86,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {/* Column 1 */}
         <div className="flex justify-center flex-col p-0 hero-col">
-          <h2 className="2xl:text-[4.8rem] text-[3rem] pb-10 leading-[1] uppercase font-bold overflow-hidden">
+          <h2 className="2xl:text-[4.8rem] xl:text-[4rem] lg:text-[3.8rem] text-[3rem] pb-10 leading-[1] uppercase font-bold overflow-hidden">
             <div className="line overflow-hidden">
               <span className="inline-block hero-text-block">
                 <span className="text-blue-600 inline-block">A new</span> level
@@ -133,7 +133,7 @@ const HeroSection = () => {
 
         {/* Column 3 */}
         <div className="bg-white flex items-end p-0 hero-col overflow-hidden">
-          <h2 className="text-[5.8rem] leading-[1] uppercase font-bold">
+          <h2 className="2xl:text-[5.8rem] xl:text-[4.8rem] lg:text-[4rem] text-[3rem] leading-[1] uppercase font-bold">
             <div className="line overflow-hidden">
               <span className="inline-block hero-text-block">A perfect</span>
             </div>
