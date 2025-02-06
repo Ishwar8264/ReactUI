@@ -1,0 +1,7 @@
+.hero-text-block, .line, .hero-image {
+    will-change: transform, opacity;
+  }
+  
+  .text-blue-600 {
+    will-change: transform, opacity, color;
+  }

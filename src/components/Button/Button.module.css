@@ -1,0 +1,76 @@
+/* Reset CSS */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --clr-primary: #f5f5f5;
+  --clr-secondary: #283335;
+  --clr-button: #283335;
+}
+
+/* Main Button Container */
+.mainButton {
+  /* min-height: 100svh; */
+  display: grid;
+  place-content: center;
+  gap: 0.75rem;
+  color: var(--clr-primary);
+  /* padding: 1rem; */
+  counter-reset: section;
+}
+
+/* Button Wrapper */
+.buttons {
+  --_offset: 12px;
+  --_btn-height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+/* Button Styles */
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  background-color: var(--clr-button);
+  padding: 0.5rem 2rem;
+  height: var(--_btn-height);
+  transition: background-color 300ms ease-in-out, scale 300ms ease-in-out;
+  clip-path: polygon(
+    var(--_offset) 0,
+    100% 0,
+    calc(100% - var(--_offset)) 100%,
+    0 100%
+  );
+}
+
+/* First Button */
+.firstButton {
+  clip-path: polygon(0% 0, 100% 0, calc(100% - var(--_offset)) 100%, 0 100%);
+  padding-inline-start: calc(2rem - var(--_offset) / 2);
+}
+
+/* Second Button */
+.secondButton {
+  clip-path: polygon(var(--_offset) 0, 100% 0, 100% 100%, 0 100%);
+  padding-inline-end: calc(2rem - var(--_offset) / 2);
+}
+
+/* Hover & Focus Styles */
+.button:hover,
+.button:focus-visible,
+.button.active {
+  background-color: blue;
+}
+
+.button:hover {
+  scale: 1;
+}
