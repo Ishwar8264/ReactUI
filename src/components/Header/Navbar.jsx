@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav className="pb-4">
-      <div className="container-fluid pb-10 sm:pb-0 px-6 bg-slate-500 sm:bg-white mx-auto text-center flex justify-between items-center">
+      <div className="container-fluid xl:container pb-10 sm:pb-0 px-6 bg-slate-500 sm:bg-white mx-auto text-center flex justify-between items-center">
         <button
           className="text-black text-2xl md:hidden nav-hamburger"
           onClick={() => setMenuOpen(!menuOpen)}
