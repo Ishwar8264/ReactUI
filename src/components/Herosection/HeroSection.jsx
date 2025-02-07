@@ -123,7 +123,7 @@ const HeroSection = () => {
         </div>
 
         {/* Column 2 */}
-        <div className="bg-white hero-col overflow-hidden">
+        <div className=" hero-col overflow-hidden">
           <img
             src={img}
             alt="teeth-image"
@@ -132,7 +132,7 @@ const HeroSection = () => {
         </div>
 
         {/* Column 3 */}
-        <div className="bg-white flex items-end p-0 hero-col overflow-hidden">
+        <div className=" flex items-end p-0 hero-col overflow-hidden">
           <h2 className="2xl:text-[5.8rem] xl:text-[4.8rem] lg:text-[4rem] text-[3rem] leading-[1] uppercase font-bold">
             <div className="line overflow-hidden">
               <span className="inline-block hero-text-block">A perfect</span>
